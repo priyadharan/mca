@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+        Document
+        {% endblock %}
+   </title>
+</head>
+<body>
+    
+    {% block body %}
+    <div class="header py-5">
+        <div class="container text-center">
+            <h1>Welcome to <b>Project Management</b></h1>
+            <p>Dr.Mahalingam College of Engineering</p>
+        
+        </div>
+    </div>
+
+      
+    
+    {% endblock %}
+</body>
+</html>
